@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+body{
+    background-color: rgb(234, 242, 243);
+    font-family: 'Mulish',sans-serif;
+}
+.comment_box{
+    list-style-type: none;
+    padding-left: 0;
+}
+.comment{
+    animation: addComment  1s ease forwards;
+}
+@keyframes addComment {
+       0%{
+           transform: translateY(-30px);
+           opacity: 0;
+       }
+       100%{
+           transform: translateY(0px);
+           opacity: 1;
+       }
+}
